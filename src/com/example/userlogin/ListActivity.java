@@ -41,10 +41,6 @@ public class ListActivity extends Activity {
 	private Button m_search;
 	private ListView m_lv;
 	private EditText m_searPa;
-	/**
-	 * 在Android之中，视图组件不是线程安全的，所以更新组件的时候需要交给主线程去更新
-	 * 而不能由子线程更新
-	 */
 	private Handler handler = new Handler() {
 		@Override
 		public void handleMessage(Message msg) {
