@@ -34,7 +34,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-
+/**
+ * list the data from java web server
+ */
 public class ListActivity extends Activity {
 	private TextView secondTxt;
 	private Button m_returnBtn;
