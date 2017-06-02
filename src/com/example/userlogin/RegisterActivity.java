@@ -41,7 +41,7 @@ public class RegisterActivity extends Activity {
 				String red = msg.getData().getString("str");
 				Toast.makeText(RegisterActivity.this, red, Toast.LENGTH_SHORT).show();
 			} else if (msg.what == FAIL) {
-				Toast.makeText(RegisterActivity.this, "×¢²áÊ§°Ü£¡", Toast.LENGTH_SHORT).show();
+				Toast.makeText(RegisterActivity.this, "æ³¨å†Œå¤±è´¥ï¼", Toast.LENGTH_SHORT).show();
 			}
 		}
 	};
@@ -68,7 +68,7 @@ public class RegisterActivity extends Activity {
 					}).start();
 			}
 			/**
-			 * ½«Êı¾İ´«ËÍµ½·şÎñ¶Ë
+			 * å°†æ•°æ®ä¼ é€åˆ°æœåŠ¡ç«¯
 			 * @throws Exception
 			 */
 			private void sendDataToServer() throws Exception {
@@ -100,13 +100,12 @@ public class RegisterActivity extends Activity {
 					meg.setData(bundle);
 					handler.sendMessage(meg);
 				} else {
-					//makeText(RegisterActivity.this, "´«ËÍÊı¾İÊ±·¢ÉúÖÂÃü´íÎó£¡", Toast.LENGTH_SHORT).show();
 					meg.what = FAIL;
 					handler.sendMessage(meg);
 				}
 			}
 			/**
-			 * ¶ÁÈ¡´Ó·şÎñ¶Ë´«ËÍÀ´µÄÊı¾İ
+			 * è¯»å–ä»æœåŠ¡ç«¯ä¼ é€æ¥çš„æ•°æ®
 			 * @param inputContent
 			 * @return
 			 * @throws Exception
@@ -123,7 +122,7 @@ public class RegisterActivity extends Activity {
 				return returnData;
 			}
 			/**
-			 * ·â×°Êı¾İ
+			 * å°è£…æ•°æ®
 			 * @return
 			 */
 			private Partymember initData() {
