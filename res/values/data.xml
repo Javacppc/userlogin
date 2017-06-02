@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="taiwan_city">
+        <item>臺北</item>
+        <item>臺南</item>
+        <item>高雄</item>
+        <item>臺中</item>
+    </string-array>
+    <string-array name="zh_city">
+        <item>香港</item>
+        <item>澳門</item>
+        <item>新加坡</item>
+        <item>馬來西亞</item>
+    </string-array>
+</resources>
