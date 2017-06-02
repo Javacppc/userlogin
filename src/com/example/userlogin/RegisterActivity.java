@@ -100,7 +100,6 @@ public class RegisterActivity extends Activity {
 					meg.setData(bundle);
 					handler.sendMessage(meg);
 				} else {
-					//Toast.makeText(RegisterActivity.this, "传送数据时发生致命错误！", Toast.LENGTH_SHORT).show();
 					meg.what = FAIL;
 					handler.sendMessage(meg);
 				}
