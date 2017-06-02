@@ -34,7 +34,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-
+/**
+java Android applciation Context
+*/
 public class ListActivity extends Activity {
 	private TextView secondTxt;
 	private Button m_returnBtn;
